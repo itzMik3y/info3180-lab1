@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    <title>My Website - ME</title>
 </head>
 <body>
-    <h1>Place Your Name Here</h1>
-    <p>Write a short paragraph about yourself here.</p>
+    <h1>Michael Webb</h1>
+    <img src="{{url_for('static',filename='css/img.jpg')}}" alt=="" style="width:300px;"/>
+    <p>I love programming, specifically web development. I am 20 and my favourite color red.</p>
 </body>
 </html>
